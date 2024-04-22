@@ -44,23 +44,23 @@
             <div class="vs-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">Home</a>
-                        <ul class="sub-menu">
+                        <a href="#">Home</a>
+                        <!-- <ul class="sub-menu">
                             <li><a href="index.html">Home One</a></li>
                             <li><a href="index-2.html">Home Two</a></li>
                             <li><a href="index-3.html">Home Three</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#">Destinations</a>
-                        <ul class="sub-menu">
+                        <a href="#about">About</a>
+                        <!-- <ul class="sub-menu">
                             <li><a href="destinations.html">Destinations</a></li>
                             <li><a href="destination-details.html">Destinations Details</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="menu-item-has-children mega-menu-wrap">
-                        <a href="#">Pages</a>
-                        <ul class="mega-menu">
+                        <a href="#cities">Cities</a>
+                        <!-- <ul class="mega-menu">
                             <li>
                                 <a href="shop.html">Pagelist 1</a>
                                 <ul>
@@ -99,34 +99,34 @@
                                     <li><a href="sign-up.html">Sign Up</a></li>
                                 </ul>
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#">Tours</a>
-                        <ul class="sub-menu">
+                        <a href="#apps">Our Apps</a>
+                        <!-- <ul class="sub-menu">
                             <li><a href="tours.html">Tours List</a></li>
                             <li><a href="tour-booking.html">Tour Booking</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#">Shop</a>
-                        <ul class="sub-menu">
+                        <a href="#faq">FAQ</a>
+                        <!-- <ul class="sub-menu">
                             <li><a href="shop.html">Shop</a></li>
                             <li><a href="shop-details.html">Shop Details</a></li>
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
-                    <li class="menu-item-has-children">
+                    <!-- <li class="menu-item-has-children">
                         <a href="#">Blog</a>
                         <ul class="sub-menu">
                             <li><a href="blog.html">Blog List</a></li>
                             <li><a href="blog-grid.html">Blog Grid</a></li>
                             <li><a href="blog-details.html">Blog Details</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -282,7 +282,7 @@
     <section class="hero-layout1">
         <div>
             <div id="booking" class="vs-carousel hero-slider2" data-slide-show="1" data-fade="true">
-                <div class="hero-slide hero-mask" data-bg-src="assets/img/sliders/img-1.jpeg">
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-1.jpeg">
                     <div class="container">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-lg-6">
@@ -297,55 +297,71 @@
                                     <a href="#contact" class="vs-btn style4">Contact Us</a>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
-                                    <div class="shape-mockup">
-                                        <img src="assets/img/banner/hero-object.png" alt="hero image">
-                                    </div>
-                                    <div>
-                                        <label class="h3">Where To?</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-compass"></i>
-                                            <input type="text" placeholder="Where To?" />
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Month</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-calendar-alt"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Month</option>
-                                                <option value="">January</option>
-                                                <option value="">February</option>
-                                                <option value="">March</option>
-                                                <option value="">April</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Travel Type</label>
-                                        <div class="form-group">
-                                            <i class="fas fa-thumbtack"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Type</option>
-                                                <option value="">Adventure </option>
-                                                <option value="">Combining</option>
-                                                <option value="">Sporting</option>
-                                                <option value="">Domestic</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <button class="vs-btn style4">Find Now</button>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="hero-slide hero-mask" data-bg-src="assets/img/sliders/img-2.jpeg">
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-2.jpeg" >
                     <div class="container">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-lg-6">
@@ -361,55 +377,71 @@
                                     <a href="#contact" class="vs-btn style4">Contact Us</a>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
-                                    <div class="shape-mockup">
-                                        <img src="assets/img/banner/hero-object.png" alt="hero image">
-                                    </div>
-                                    <div>
-                                        <label class="h3">Where To?</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-compass"></i>
-                                            <input type="text" placeholder="Where To?" />
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Month</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-calendar-alt"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Month</option>
-                                                <option value="">January</option>
-                                                <option value="">February</option>
-                                                <option value="">March</option>
-                                                <option value="">April</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Travel Type</label>
-                                        <div class="form-group">
-                                            <i class="fas fa-thumbtack"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Type</option>
-                                                <option value="">Adventure </option>
-                                                <option value="">Combining</option>
-                                                <option value="">Sporting</option>
-                                                <option value="">Domestic</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <button class="vs-btn style4">Find Now</button>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="hero-slide hero-mask" data-bg-src="assets/img/sliders/img-3.jpeg">
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-3.jpeg">
                     <div class="container">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-lg-6">
@@ -424,55 +456,71 @@
                                     <a href="#contact" class="vs-btn style4">Contact Us</a>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
-                                    <div class="shape-mockup">
-                                        <img src="assets/img/banner/hero-object.png" alt="hero image">
-                                    </div>
-                                    <div>
-                                        <label class="h3">Where To?</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-compass"></i>
-                                            <input type="text" placeholder="Where To?" />
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Month</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-calendar-alt"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Month</option>
-                                                <option value="">January</option>
-                                                <option value="">February</option>
-                                                <option value="">March</option>
-                                                <option value="">April</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Travel Type</label>
-                                        <div class="form-group">
-                                            <i class="fas fa-thumbtack"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Type</option>
-                                                <option value="">Adventure </option>
-                                                <option value="">Combining</option>
-                                                <option value="">Sporting</option>
-                                                <option value="">Domestic</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <button class="vs-btn style4">Find Now</button>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="hero-slide hero-mask" data-bg-src="assets/img/sliders/img-4.jpeg">
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-4.jpeg">
                     <div class="container">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-lg-6">
@@ -488,55 +536,71 @@
                                     <a href="#contact" class="vs-btn style4">Contact Us</a>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
-                                    <div class="shape-mockup">
-                                        <img src="assets/img/banner/hero-object.png" alt="hero image">
-                                    </div>
-                                    <div>
-                                        <label class="h3">Where To?</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-compass"></i>
-                                            <input type="text" placeholder="Where To?" />
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Month</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-calendar-alt"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Month</option>
-                                                <option value="">January</option>
-                                                <option value="">February</option>
-                                                <option value="">March</option>
-                                                <option value="">April</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Travel Type</label>
-                                        <div class="form-group">
-                                            <i class="fas fa-thumbtack"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Type</option>
-                                                <option value="">Adventure </option>
-                                                <option value="">Combining</option>
-                                                <option value="">Sporting</option>
-                                                <option value="">Domestic</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <button class="vs-btn style4">Find Now</button>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <div class="hero-slide hero-mask" data-bg-src="assets/img/sliders/img-3.jpeg">
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-3.jpeg">
                     <div class="container">
                         <div class="row align-items-center justify-content-between">
                             <div class="col-lg-6">
@@ -552,51 +616,67 @@
                                     <a href="#contact" class="vs-btn style4">Contact Us</a>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
-                                    <div class="shape-mockup">
-                                        <img src="assets/img/banner/hero-object.png" alt="hero image">
-                                    </div>
-                                    <div>
-                                        <label class="h3">Where To?</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-compass"></i>
-                                            <input type="text" placeholder="Where To?" />
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Month</label>
-                                        <div class="form-group ">
-                                            <i class="fas fa-calendar-alt"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Month</option>
-                                                <option value="">January</option>
-                                                <option value="">February</option>
-                                                <option value="">March</option>
-                                                <option value="">April</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <label class="h3">Travel Type</label>
-                                        <div class="form-group">
-                                            <i class="fas fa-thumbtack"></i>
-                                            <select class="form-select" name="name">
-                                                <option value="" selected="selected" disabled="disabled" hidden="">
-                                                    Select Type</option>
-                                                <option value="">Adventure </option>
-                                                <option value="">Combining</option>
-                                                <option value="">Sporting</option>
-                                                <option value="">Domestic</option>
-                                            </select>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <button class="vs-btn style4">Find Now</button>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -945,7 +1025,7 @@
 
 
     <!-- Footer -->
-    <footer class="footer-wrapper footer-layout1 shape-mockup-wrap">
+    <footer id="contact" class="footer-wrapper footer-layout1 shape-mockup-wrap">
         <div class="shape-mockup d-none d-lg-block jump z-index-negative" data-top="20%" data-left="0%">
             <img src="assets/img/shape/tree-left.png" alt="svg">
         </div>
