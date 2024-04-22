@@ -124,6 +124,16 @@ Version: 1.0.0
   width: auto;
 }
 
+footer .newsletter-img img{
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.scrollToTop.show {
+  bottom: 100px !important;
+  right: 30px !important;
+}
+
 
 /*------------------- 1.5. Typography -------------------*/
 html,
