@@ -111,6 +111,20 @@ Version: 1.0.0
 }
 
 
+.header-top .header-contact li i{
+  height: auto !important;
+  width: auto !important;
+  color: white !important;
+  background-color: var(--theme-color) !important;
+}
+
+
+.btn-image{
+  height: 53px !important;
+  width: auto;
+}
+
+
 /*------------------- 1.5. Typography -------------------*/
 html,
 body {
