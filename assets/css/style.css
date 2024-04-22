@@ -2580,6 +2580,10 @@ a.text-theme:hover,
   z-index: 41;
 }
 
+.logo{
+  width: 300px;
+}
+
 .vs-logo img {
   /* Medium devices */
   /* Small devices */
@@ -2587,6 +2591,10 @@ a.text-theme:hover,
 @media (max-width: 991px) {
   .vs-logo img {
     padding: 20px 0;
+  }
+
+  .logo{
+    margin-left: 40px;
   }
 }
 @media (max-width: 767px) {
