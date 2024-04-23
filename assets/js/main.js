@@ -118,7 +118,7 @@
                    autoplaySpeed: s("autoplay-speed") ? s("autoplay-speed") : 8e3,
                    centerPadding: s("center-padding") ? s("center-padding") : "0",
                    focusOnSelect: !1 != s("focuson-select"),
-                   pauseOnFocus: !!s("pauseon-focus"),
+                //    pauseOnFocus: !!s("pauseon-focus"),
                    pauseOnHover: !!s("pauseon-hover"),
                    variableWidth: !!s("variable-width"),
                    vertical: !!s("vertical"),
