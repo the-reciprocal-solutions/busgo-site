@@ -128,7 +128,7 @@
     height: var(--icon-size, 124px);
     line-height: var(--icon-size, 124px);
     text-align: center;
-    background-color: rgba(#ff681a, $alpha: 0.8);
+    background-color: rgba(#dc3545, $alpha: 0.8);
     color: $theme-color;
     font-size: var(--icon-font-size, 1.5em);
     border-radius: 50%;
@@ -144,7 +144,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(#ff681a, 0.8);
+    background-color: rgba(#dc3545, 0.8);
     @extend .ripple-animation;
     z-index: -1;
     border-radius: 50%;

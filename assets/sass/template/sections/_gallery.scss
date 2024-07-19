@@ -79,12 +79,12 @@
       width: var(--icon-size, 110px);
       height: var(--icon-size, 110px);
       line-height: var(--icon-size, 110px);
-      background-color: rgba(#ff681a, $alpha: 0.8);
+      background-color: rgba(#dc3545, $alpha: 0.8);
     }
 
     &:after,
     &:before {
-      background-color: rgba(#ff681a, 0.8);
+      background-color: rgba(#dc3545, 0.8);
     }
     &:hover {
       > i {
@@ -195,7 +195,7 @@
 
   .vs-btn {
     &.style3 {
-      --theme-color: #FF681A;
+      --theme-color: #dc3545;
     }
   }
 }
