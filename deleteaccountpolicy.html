@@ -1,3 +1,962 @@
-<h1>
-    deleteaccountpolicyss
-</h1>
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+    <title>
+        TickMyBus: Seamless Bus Booking for Your Travel Needs
+    </title>
+    <title>Tick my Bus</title>
+    <meta name="description"
+        content="Experience hassle-free travel with TickMyBus, your go-to bus booking. Book tickets, check schedules, and track buses in real-time. Enjoy exclusive offers and the best customer support. Download now!">
+    <meta name="keywords" content="bus booking app, online bus tickets, bus travel, real-time bus tracking, TickMyBus, bus schedules, travel offers, bus ticket booking, seamless travel, bus reservations, tick my bus, Bus booking" />
+    <meta name="author" content="thereciprocalsolutions">
+    <meta name="google-site-verification" content="2VeLxXeMpEqnFcRVcNKX_gpbIEG0bXUmrnaM9EgAMQQ" />
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/png" href="assets/img/favicons/favicon2.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .menu-style1 li {
+            padding: 25px 0px !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="vs-menu-wrapper">
+        <div class="vs-menu-area text-center">
+            <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/logo/logo1.png" alt="Travolo"></a>
+            </div>
+            <div class="vs-mobile-menu">
+                <ul>
+                    <li class="menu-item-has-children">
+                        <a href="#">Home</a>
+                        <!-- <ul class="sub-menu">
+                            <li><a href="index.html">Home One</a></li>
+                            <li><a href="index-2.html">Home Two</a></li>
+                            <li><a href="index-3.html">Home Three</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#about">About</a>
+                        <!-- <ul class="sub-menu">
+                            <li><a href="destinations.html">Destinations</a></li>
+                            <li><a href="destination-details.html">Destinations Details</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="menu-item-has-children mega-menu-wrap">
+                        <a href="#cities">Cities</a>
+                        <!-- <ul class="mega-menu">
+                            <li>
+                                <a href="shop.html">Pagelist 1</a>
+                                <ul>
+                                    <li><a href="index.html">Home One</a></li>
+                                    <li><a href="index-2.html">Home Two</a></li>
+                                    <li><a href="index-3.html">Home Three</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Pagelist 2</a>
+                                <ul>
+                                    <li><a href="destinations.html">Destinations</a></li>
+                                    <li><a href="destination-details.html">Destinations Details</a></li>
+                                    <li><a href="tours.html">Tours List</a></li>
+                                    <li><a href="tour-booking.html">Tour Booking</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Pagelist 3</a>
+                                <ul>
+                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Pagelist 4</a>
+                                <ul>
+                                    <li><a href="blog.html">Blog List</a></li>
+                                    <li><a href="blog-grid.html">Blog Grid</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="error.html">Error Page</a></li>
+                                    <li><a href="signin.html">Sign In</a></li>
+                                    <li><a href="sign-up.html">Sign Up</a></li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#apps">Our Apps</a>
+                        <!-- <ul class="sub-menu">
+                            <li><a href="tours.html">Tours List</a></li>
+                            <li><a href="tour-booking.html">Tour Booking</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="#faq">FAQ</a>
+                        <!-- <ul class="sub-menu">
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="shop-details.html">Shop Details</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                        </ul> -->
+                    </li>
+                    <!-- <li class="menu-item-has-children">
+                        <a href="#">Blog</a>
+                        <ul class="sub-menu">
+                            <li><a href="blog.html">Blog List</a></li>
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sidemenu-wrapper offcanvas-wrapper d-none d-lg-block">
+        <div class="sidemenu-content">
+            <button class="closeButton sideMenuCls">
+                <i class="far fa-times"></i>
+            </button>
+            <div class="widget">
+                <div class="vs-widget-about">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="assets/img/logo/logo1.png" alt="Travolo"></a>
+                    </div>
+                    <p class="footer-text">
+                        Tick my Bus is more than just a bus booking platform - it's a travel companion dedicated to enhancing the travel experience for both customers and businesses, with a primary focus on South India.
+                    </p>
+                    <div class="info-social style2">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="widget">
+                <h3 class="widget_title">Recent Articles</h3>
+                <div class="recent-post-wrap">
+                    <div class="recent-post">
+                        <div class="media-img">
+                            <a href="blog-details.html"><img src="assets/img/blog/recent-post1.jpg"
+                                    alt="Blog Image"></a>
+                        </div>
+                        <div class="media-body">
+                            <div class="recent-post-meta">
+                                <i class="fal fa-calendar-alt"></i>
+                                <a href="blog.html">December 15, 2022</a>
+                            </div>
+                            <h4 class="post-title">
+                                <a class="text-inherit" href="blog-details.html">We are Giving Amazing Tour for VIP</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <div class="media-img">
+                            <a href="blog-details.html"><img src="assets/img/blog/recent-post2.jpg"
+                                    alt="Blog Image"></a>
+                        </div>
+                        <div class="media-body">
+                            <div class="recent-post-meta">
+                                <i class="fal fa-calendar-alt"></i>
+                                <a href="blog.html">March 13, 2022</a>
+                            </div>
+                            <h4 class="post-title">
+                                <a class="text-inherit" href="blog-details.html">The journey journal chronicles of a
+                                    wandering soul</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <div class="media-img">
+                            <a href="blog-details.html"><img src="assets/img/blog/recent-post3.jpg"
+                                    alt="Blog Image"></a>
+                        </div>
+                        <div class="media-body">
+                            <div class="recent-post-meta">
+                                <i class="fal fa-calendar-alt"></i>
+                                <a href="blog.html">Augest 23, 2022</a>
+                            </div>
+                            <h4 class="post-title">
+                                <a class="text-inherit" href="blog-details.html">Roam And Revel captivating at
+                                    tellus.</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+    <header class="vs-header header-layout2">
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col d-none d-lg-block">
+                        <ul class="header-contact">
+                            <li><i class="fas fa-envelope"></i> <a
+                                    href="mailto:tickmybus@gmail.com">tickmybus@gmail.com</a>
+                            </li>
+                            <li><i class="fas fa-phone-alt"></i> <a href="tel:+919092548488">+91 90925 48488</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <a class="vs-btn style2 " href="#booking">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <div class="sticky-active">
+                <div class="container position-relative z-index-common">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <div class="vs-logo">
+                                <a href="/">
+                                    <img src="assets/img/logo/logo1.png" alt="logo" class="logo-img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col text-end text-xl-center">
+                            <nav class="main-menu menu-style1 d-none d-lg-block">
+                                <ul>
+                                    <li>
+                                        <a href="/">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#cities">Cities</a>
+                                    </li>
+                                    <li>
+                                        <a href="#apps">Our Apps</a>
+                                    </li>
+                                    <li>
+                                        <a href="#faq">Faq</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <button class="vs-menu-toggle d-inline-block d-lg-none"><i class="fal fa-bars"></i></button>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <div class="header-btns">
+                                <button class="sideMenuToggler"><i class="fal fa-bars"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="hero-layout1">
+        <div>
+            <div id="booking" class="vs-carousel hero-slider2" data-slide-show="1" data-fade="true">
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-1.jpeg">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6">
+                                <div class="hero-content">
+                                    <span class="hero-subtitle">Your Ticket to Seamless Travel:</span>
+                                    <h1 class="hero-title">Hop On Board with Travolo!</h1>
+                                    <p class="hero-text">
+                                        Streamline your journey with Travolo's intuitive bus booking platform. From
+                                        instant reservations to real-time updates, enjoy hassle-free travel at your
+                                        fingertips. Say hello to convenience and goodbye to travel worries!
+                                    </p>
+                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                </div>
+                            </div>
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-2.jpeg" >
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6">
+                                <div class="hero-content">
+                                    <span class="hero-subtitle">Navigate South India with Ease:</span>
+                                    <h1 class="hero-title">Let Travolo Be Your Guide!</h1>
+                                    <p class="hero-text">
+                                        Explore South India's diverse landscapes effortlessly with Travolo. From the
+                                        vibrant streets of Chennai to the tranquil backwaters of Kerala, our platform
+                                        connects you to every destination. Embrace the beauty of the region with
+                                        seamless bus booking on Travolo.
+                                    </p>
+                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                </div>
+                            </div>
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-3.jpeg">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6">
+                                <div class="hero-content">
+                                    <span class="hero-subtitle">Unlock Adventure, Unlock Travolo:</span>
+                                    <h1 class="hero-title">Your Gateway to Exciting Journeys!</h1>
+                                    <p class="hero-text">
+                                        Get ready for unforgettable experiences with Travolo. Discover hidden gems,
+                                        embark on spontaneous trips, and make every journey count. With our reliable bus
+                                        booking service, the possibilities are endless – start your adventure today!
+                                    </p>
+                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                </div>
+                            </div>
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-4.jpeg">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6">
+                                <div class="hero-content">
+                                    <span class="hero-subtitle">Travel Smarter, Save More:</span>
+                                    <h1 class="hero-title">Book Your Bus with Travolo!</h1>
+                                    <p class="hero-text">
+                                        Enjoy unbeatable savings and exclusive discounts when you book your bus with
+                                        Travolo. Our platform not only offers convenience but also rewards loyalty.
+                                        Maximize your travel experience without breaking the bank – book smart with
+                                        Travolo.
+                                    </p>
+                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                </div>
+                            </div>
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-slide hero-mask bg_img" data-bg-src="assets/img/sliders/img-3.jpeg">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6">
+                                <div class="hero-content">
+                                    <span class="hero-subtitle">Seamless Travel, Exceptional Service:</span>
+                                    <h1 class="hero-title">Experience Travolo Today!</h1>
+                                    <p class="hero-text">
+                                        Trust Travolo for a stress-free travel experience from start to finish. With
+                                        easy booking, secure payments, and reliable service, we've got all your travel
+                                        needs covered. Join thousands of satisfied travelers and experience the
+                                        difference with Travolo.
+                                    </p>
+                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                </div>
+                            </div>
+                            <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
+                                <div class="col-lg-6">
+                                    <div class="hero-form2" data-bg-src="assets/img/banner/map-bg.png">
+                                        <div class="shape-mockup">
+                                            <img src="assets/img/banner/busgo.png" alt="hero image">
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Name</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-pencil"></i>
+                                                <input id="name" name="name" type="text" placeholder="Name"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Phone</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-phone"></i>
+                                                <input id="phone" name="phone" type="number" placeholder="Phone" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">From?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input id="from" name="from" type="text" placeholder="From"  required/>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Where To?</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-compass"></i>
+                                                <input type="text" id="to" name="to" placeholder="Where To?" required />
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <!-- <label class="h3">Date</label> -->
+                                            <div class="form-group ">
+                                                <i class="fas fa-calendar-alt"></i>
+                                               <input type="date" name="date" id="date" required>
+                                            </div>
+                                        </div>
+                                        <!-- <div>
+                                            <label class="h3">Travel Type</label>
+                                            <div class="form-group">
+                                                <i class="fas fa-thumbtack"></i>
+                                                <select class="form-select" name="name">
+                                                    <option value="" selected="selected" disabled="disabled" hidden="">
+                                                        Select Type</option>
+                                                    <option value="">Adventure </option>
+                                                    <option value="">Combining</option>
+                                                    <option value="">Sporting</option>
+                                                    <option value="">Domestic</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        <div>
+                                            <button class="vs-btn style4">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="icon-btn prev-btn" data-slick-prev=".hero-slider2"><i
+                        class="fas fa-chevron-left"></i></button>
+                <button class="icon-btn next-btn" data-slick-next=".hero-slider2"><i
+                        class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="space-extra-bottom shape-mockup-wrap mt-5 pt-5">
+        <div class="shape-mockup d-none d-lg-block ripple-animation z-index-negative" data-bottom="10%"
+            data-right="13%">
+            <img src="assets/img/shape/circle.png" alt="svg">
+        </div>
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                 
+                </div>
+            </div>
+
+               <div class="col-lg-12 col-md-6 col-sm-6 col-12">
+                    
+                        <div class="features-bg" data-bg-src="assets/img/shape/features.png" ></div>
+                        <div class="features-image">
+                            <img src="assets/img/features/features-1-2.png" alt="image">
+                        </div>
+                        <div class="features-content">
+                            <h3 class="features-title">Account Deletion Policy</h3>
+                            <p class="features-text">
+                                Last updated September 03, 2024
+                                <p>
+                           
+    
+                                    
+                                    1. Overview<br>
+                                    
+                                    This policy outlines the process for deleting your account on Tickmybus. You can delete your account through both our app and website by accessing the account settings in your profile.
+                                    <br>
+                                    2. How to Delete Your Account<br>
+                                    
+                                    Via App:<br>
+                                    
+                                    1. Open the Tickmybus app and log in to your account.<br>
+                                    2. Navigate to the profile or account settings section.<br>
+                                    3. Select the "Delete Account" option.<br>
+                                    4. Follow the prompts to confirm the deletion.<br>
+                                    
+                                    Via Website:<br>
+                                    
+                                    1. Log in to your account on the Tickmybus website.<br>
+                                    2. Go to your profile settings.<br>
+                                    3. Click on the "Delete Account" link.<br>
+                                    4. Confirm your decision by following the instructions provided.<br>
+                                    <br>
+                                    3. What Happens After Deletion<br>
+                                    
+                                    Upon successful deletion of your account:
+                                    <br>
+                                    - Your account and all associated data will be permanently removed from our active databases.<br>
+                                    - Some information may be retained in our backup archives to comply with legal requirements, prevent fraud, troubleshoot issues, or enforce our terms of service.<br>
+                                    
+                                    4. Effects of Deletion
+                                    <br>
+                                    - Irreversible Action: Account deletion is irreversible. Once completed, you will not be able to recover any inf<br>ormation or data previously associated with your account.
+                                    - Loss of Access: You will no longer have access to your account or any associated services and data.<br>
+                                    - Irreversible Action: Account deletion is irreversible. Once completed, you will not be able to recover any information or data previously associated with your account.
+                                    <br>
+                                    5. Questions or Assistance<br>
+                                    
+                                    If you have any questions or need assistance with account deletion, please contact our support team at [info@tickmybus.com](mailto:info@tickmybus.com).<br>
+                                    
+                                    6. Updates to This Policy<br>
+                                    
+                                    We may update this policy from time to time. Any changes will be posted on this page with an updated "Last updated" date.<br>
+                                    
+                                    ---
+                                    
+                                    Feel free to adjust any details as needed!<br>
+                                </p>
+                            </p>
+                        </div>
+               
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+    <!-- Footer -->
+    <footer id="contact" class="footer-wrapper footer-layout1 shape-mockup-wrap">
+        <div class="shape-mockup d-none d-lg-block jump z-index-negative" data-top="20%" data-left="0%">
+            <img src="assets/img/shape/tree-left.png" alt="svg">
+        </div>
+        <div class="shape-mockup d-none d-lg-block jump z-index-negative" data-top="20%" data-right="0%">
+            <img src="assets/img/shape/tree-right.png" alt="svg">
+        </div>
+        <div id="contact" class="container">
+            <div class="footer-newsletter2 space-top">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="newsletter-style2">
+                            <div class="newsletter-img">
+                                <img src="assets/img/shape/call.png" alt="image">
+                            </div>
+                            <h3 class="newsletter-text">Call Us 24/7</h3>
+                            <a href="tel:+919092548488">+91 90925 48488</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="newsletter-style2">
+                            <div class="newsletter-img">
+                                <img src="assets/img/shape/share.png" alt="image">
+                            </div>
+                            <h3 class="newsletter-text">Mail Us</h3>
+                            <a href="mailto:tickmybus@gmail.com">tickmybus@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="newsletter-style2">
+                            <div class="newsletter-img">
+                                <img src="assets/img/shape/location.png" alt="image">
+                            </div>
+                            <h3 class="newsletter-text">Location</h3>
+                            <a href="https://maps.app.goo.gl/hrNBtbM4dtARfdjq6" target="_blank">2, Kelimel Street,
+                                Lakshmipuram, Coimbatore - 641006.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widget-area2">
+            <div class="container">
+                <div class="row g-5 justify-content-between">
+                    <div class="col-auto"></div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="widget footer-widget">
+                            <div class="vs-widget-about">
+                                <div class="footer-logo">
+                                    <a href="/"><img src="assets/img/logo/logo.png" alt="Travolo" class="logo" /></a>
+                                </div>
+                                <p class="footer-text" style="max-width: 100% !important;">
+                                    Tick my Bus is more than just a bus booking platform - it's a travel companion
+                                    dedicated to enhancing the travel experience for both customers and businesses, with
+                                    a primary focus on South India.
+                                </p>
+                                <div class="social-style1">
+                                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="widget widget_nav_menu footer-widget">
+                            <h3 class="widget_title">Useful Links</h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="/"><i class="far fa-angle-right"></i>Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about"><i class="far fa-angle-right"></i>About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#cities"><i class="far fa-angle-right"></i>Cities</a>
+                                    </li>
+                                    <li>
+                                        <a href="#faq"><i class="far fa-angle-right"></i>Faq</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact"><i class="far fa-angle-right"></i>Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="widget widget_nav_menu footer-widget footer-contact">
+                            <h3 class="widget_title">Contact</h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu">
+                                    <li><a href="https://maps.app.goo.gl/hrNBtbM4dtARfdjq6" target="_blank">
+                                            <i class="fas fa-map-marker-alt"></i> 2, Kelimel Street, Lakshmipuram,
+                                            Coimbatore - 641006.</a>
+                                    </li>
+                                    <li><a href="mailto:tickmybus@gmail.com"><i class="fas fa-envelope"></i>
+                                            tickmybus@gmail.com</a></li>
+                                    <li><a href="tel:+919092548488"><i class="fas fa-phone-alt"></i> +91 90925 48488</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright-wrap">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-auto">
+                        <p class="copyright-text">Legal Entity Name: <a href="/" class="ml-2">ANBU TRANSPORT SERVICE PRIVATE LIMITED</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-auto">
+                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i>
+                            2024 <a href="/" class="ml-2">Tick my Bus</a>.
+                            Designed by <a href="https://thereciprocalsolutions.com/" target="_blank">The Reciprocal
+                                Solutions</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scroll To Top -->
+    <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+
+    <section title="floating">
+        <a href="tel:+919092548488" class="float float-p" target="_blank">
+            <img src="assets/img/icons/phone.png" alt="call_now">
+        </a>
+
+        <a href="https://api.whatsapp.com/send/?phone=+919092548488&text=Hello Tick My Bus!&type=phone_number&app_absent=0"
+            class="float float-w" target="_blank">
+            <img src="assets/img/icons/whatsapp.png" alt="whatsapp"></img>
+        </a>
+
+    </section>
+
+    <style>
+        .float {
+            position: fixed;
+            bottom: 30px;
+            width: 50px;
+            height: 50px;
+            z-index: 100;
+        }
+
+        .float-p {
+            left: 25px;
+            padding: 5px;
+            background-color: #3365a2;
+            border-radius: 50%;
+        }
+
+        .float-w {
+            right: 25px;
+        }
+    </style>
+
+
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/circle-progress.min.js"></script>
+    <script src="assets/js/imagesLoaded.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
