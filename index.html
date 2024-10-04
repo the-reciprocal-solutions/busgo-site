@@ -40,8 +40,46 @@
 
 </head>
 
-<body>
-
+<body id="body">
+    <div class="form-popup container-sm" id="myForm">
+        <div class="cancel" onclick="closeForm()"></div>
+        <div class="d-flex flex-row justify-content-around">
+            <div class="col-lg-4 col-6 d-none d-lg-block form-popup-image justify-content-center align-items-center d-flex flex-column text-center">
+                <img src="assets/img/app.jpg " alt="Popup Image">
+            </div>
+            
+            <div id="Partner" class="col-lg-7 col-12 form-popup-text " id="popup-text">
+                
+                <h1>Become a Partner!</h1>
+                <form id="Partner-form" class="form-container">
+            
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" class="col-6 form-control" placeholder="Enter your Name" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" class="col-6 form-control" placeholder="Enter your Phone Number" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="col-6 form-control" placeholder="Enter your Email" required>
+                    </div>
+                    <div>
+                        <label for="travelName">Travel's Name:</label>
+                        <input type="text" id="travelName" name="travelName" class="col-6 form-control" placeholder="Enter your Travel's Name" required>
+                    </div>
+            
+                    <button type="button" class="btn"  onclick="partner()">Submit</button>
+                </form>
+            </div>
+            <div id="Partner-success" class="col-lg-7 col-12 form-popup-text justify-content-center align-items-center flex-column text-center" id="popup-text">
+                <h1>Thank you for Response!</h1>
+                <p>Our Team will contact you soon</p>
+            </div>
+        </div>
+    </div>
+    <div id="form-popup-background">
     <div class="vs-menu-wrapper">
         <div class="vs-menu-area text-center">
             <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
@@ -299,7 +337,10 @@
                                         instant reservations to real-time updates, enjoy hassle-free travel at your
                                         fingertips. Say hello to convenience and goodbye to travel worries!
                                     </p>
-                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                    <div class="d-flex flex-row gap-3">
+                                        <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                        <a onclick="openForm()" class="vs-btn style4">Become a partner</a>
+                                    </div>
                                 </div>
                             </div>
                             <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
@@ -379,7 +420,10 @@
                                         connects you to every destination. Embrace the beauty of the region with
                                         seamless bus booking on Travolo.
                                     </p>
-                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                    <div class="d-flex flex-row gap-3">
+                                        <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                        <a onclick="openForm()" class="vs-btn style4">Become a partner</a>
+                                    </div>
                                 </div>
                             </div>
                             <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
@@ -458,7 +502,10 @@
                                         embark on spontaneous trips, and make every journey count. With our reliable bus
                                         booking service, the possibilities are endless – start your adventure today!
                                     </p>
-                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                    <div class="d-flex flex-row gap-3">
+                                        <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                        <a onclick="openForm()" class="vs-btn style4">Become a partner</a>
+                                    </div>
                                 </div>
                             </div>
                             <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
@@ -538,7 +585,10 @@
                                         Maximize your travel experience without breaking the bank – book smart with
                                         Travolo.
                                     </p>
-                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                    <div class="d-flex flex-row gap-3">
+                                        <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                        <a onclick="openForm()" class="vs-btn style4">Become a partner</a>
+                                    </div>
                                 </div>
                             </div>
                             <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
@@ -618,7 +668,10 @@
                                         needs covered. Join thousands of satisfied travelers and experience the
                                         difference with Travolo.
                                     </p>
-                                    <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                    <div class="d-flex flex-row gap-3">
+                                        <a href="#contact" class="vs-btn style4">Contact Us</a>
+                                        <a onclick="openForm()" class="vs-btn style4">Become a partner</a>
+                                    </div>
                                 </div>
                             </div>
                             <form action="https://mail.thereciprocalsolutions.com/TickMyBus/booking" method="post">
@@ -835,7 +888,10 @@
                 <div class="col-lg-7 col-md-6">
                     <div class="title-area white-title">
                         <span class="sec-subtitle">Our Apps</span>
-                        <h2 class="sec-title h1">Coming Soon</h2>
+                        <!-- <h2 class="sec-title h1">Coming Soon</h2> -->
+                        <div class="pogress-container">
+                            <div class="percent">80%</div>
+                        </div>
                         <p class="sec-text">
                             Exciting News! Our app is launching soon, bringing seamless bus booking to your fingertips.
                             Prepare to set off on unforgettable journeys with ease and convenience. Stay tuned for the
@@ -1181,6 +1237,7 @@
         </div>
     </footer>
 
+    </div>
 
     <!-- Scroll To Top -->
     <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
@@ -1229,7 +1286,56 @@
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+            document.getElementById("Partner-success").style.display = "none";
+            document.getElementById("Partner").style.display = "grid";
+            document.getElementById("body").style.overflow = "hidden";
+            document.getElementById("form-popup-background").className = "form-popup-background";
+        }
 
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+            document.getElementById("body").style.overflow = "";
+            document.getElementById("form-popup-background").className = "";
+        }
+
+        async function partner(){
+            const data = document.getElementById("Partner-form")                        
+            const responseData = await fetch('https://sheetdb.io/api/v1/a70byjikhkmjl', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    data: [
+                        {
+                            "Name": String(data.name.value),
+                            "Email Id": String(data.email.value),
+                            "Phone Number": String(data.phone.value),
+                            "Travel Name": String(data.travelName.value),
+                        }
+                    ]
+                })
+            }).then((response) => {
+                console.log("response", response)
+                return response.json()
+            })
+            console.log("responseData", responseData, )
+
+            if(responseData.created == 1){
+                document.getElementById("Partner").style.display = "none";
+                document.getElementById("Partner-success").style.display = "flex";
+                setTimeout(() => {
+                    closeForm()
+                }, 3000)
+            }
+        }
+
+        openForm()
+    </script>
 </body>
 
 </html>
